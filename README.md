@@ -33,7 +33,7 @@ d Directory
 l Symbolic link
 
 Permissions for owner, group, and others:
-Read (r), write (w), and execute (x).
+Read (r), write (w), and execute (x)
 
 Example:
 bash
