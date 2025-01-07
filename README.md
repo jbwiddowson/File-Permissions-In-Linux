@@ -19,7 +19,7 @@ ls -l
 Displays: File type, permissions, owner, group, size, and modification date.
 Example:
 bash
--rw-r--r-- 1 user group 1234 Jan 1 12:00 example.txt
+-rw-r--r-- 1 user group Cyber_team Jan 4 11:00 example.txt
 To get detailed metadata about a file:
 bash
 stat example.txt
@@ -43,7 +43,6 @@ bash
 Use chmod to modify file permissions:
 
 bash
-Copy code
 chmod u+x script.sh  # Adds execute permissions for the owner
 chmod g-w document.txt  # Removes write permissions for the group
 
@@ -58,7 +57,6 @@ This command sets the file to be readable and writable only by the owner.
 Directory permissions control who can access or modify its contents:
 
 bash
-Copy code
 chmod 700 mydir  # Full access for the owner
 chmod 755 public  # Read and execute for others
 
